@@ -66,7 +66,7 @@ foodie = {:curry => 5,
           :rice => 3
   }
   
-  
+  update_counting_hash(foodie, :eh)
 
 
 
