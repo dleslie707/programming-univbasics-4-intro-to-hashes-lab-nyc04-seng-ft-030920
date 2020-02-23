@@ -1,26 +1,54 @@
 def new_hash
-  # return an empty hash
+ p new_hash = Hash.new
+  return new_hash
+  puts""
 end
+
+new_hash
+
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  p my_hash = {:fun_vibes => "cool"}
+  return my_hash
+  puts""
 end
+
+my_hash
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  p pioneer = {name: "Grace Hopper"}
+  return pioneer
+  puts""
 end
+
+pioneer
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  p id_generator = {id: 4}
+  return id_generator
+  puts""
 end
+
+id_generator
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
-end
+      p my_hash_creator = {key => value}
+          return my_hash_creator
+       puts""
+    end
+
+my_hash_creator(:silly, "thank you")
+
 
 def read_from_hash(hash, key)
+      p hash[key]
+      return hash[key]
+      puts""
+    # return read_from_hash
   # return the correct value using the hash and key parameters
 end
+
+read_from_hash(my_hash, :fun)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
